@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Register</title>
+    <%- include header %>
+</head>
+<body>
+
+    <h4>Register</h4>>
+
+    <div class="form-box">
+        <!--https://www.w3schools.com/html/html_forms.asp
+        Use POST because this is sensitive information-->
+
+        <form action="/users/register" method="post">
+            <input type="text" name="username" value="" placeholder="Full Name">
+            <input type="text" name="email" value="" placeholder="Email">
+            <input type="password" name="password" value="" placeholder="Password">
+            <input type="password" name="password2" value="" placeholder="Re-enter Password">
+            <input type="submit" name="submit" value="register now"><br>
+        </form>
+        <div>  <a href="/login">sign in </a>! </div>
+    </div>
+
+</body>
+</html>
