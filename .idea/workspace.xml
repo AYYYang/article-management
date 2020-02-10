@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45997d8b-d01b-4ecd-996a-f38796b61c82" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/header.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/register.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ArticleManagment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easy-sub.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/register.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/register.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +27,7 @@
         <option value="HTML File" />
         <option value="EJS File" />
         <option value="EJS article-manage File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,8 +50,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -52,11 +61,106 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="validRegistration Tests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/registration-validation.js</test-file>
+      <test-names>
+        <name value="validRegistration Tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="validRegistration Tests.email test.invalid email has no @" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/registration-validation.js</test-file>
+      <test-names>
+        <name value="validRegistration Tests" />
+        <name value="email test" />
+        <name value="invalid email has no @" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="validRegistration Tests.email test.invalid email has no username" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/registration-validation.js</test-file>
+      <test-names>
+        <name value="validRegistration Tests" />
+        <name value="email test" />
+        <name value="invalid email has no username" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="validUserName() Tests" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/registration-validation.js</test-file>
+      <test-names>
+        <name value="validUserName() Tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="Mocha.validRegistration Tests" />
+        <item itemvalue="Mocha.validRegistration Tests.email test.invalid email has no username" />
+        <item itemvalue="Mocha.validRegistration Tests.email test.invalid email has no @" />
+        <item itemvalue="Mocha.validUserName() Tests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -84,25 +188,149 @@
       <workItem from="1578140003113" duration="559000" />
       <workItem from="1578140584257" duration="669000" />
       <workItem from="1578141408261" duration="6945000" />
+      <workItem from="1579495744990" duration="5210000" />
+      <workItem from="1581321030417" duration="5734000" />
+      <workItem from="1581327186875" duration="1399000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="additionalRoots">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="247" y="33" key="#Notifications" timestamp="1581326768258">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state x="247" y="33" key="#Notifications/0.23.1280.710@0.23.1280.710" timestamp="1581326768258" />
+    <state x="199" y="46" key="#Usage_Scope" timestamp="1581323299271">
+      <screen x="0" y="23" width="1280" height="713" />
+    </state>
+    <state x="199" y="46" key="#Usage_Scope/0.23.1280.713@0.23.1280.713" timestamp="1581323299271" />
+    <state x="199" y="46" key="#Usage_Scope/0.23.1280.715@0.23.1280.715" timestamp="1579497413414" />
+    <state x="114" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578900011145">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="114" y="31" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.716@0.23.1280.716" timestamp="1578900011145" />
+    <state x="112" y="132" width="1060" height="473" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579499464580">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="112" y="132" width="1060" height="473" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.715@0.23.1280.715" timestamp="1579499464580" />
     <state x="262" y="64" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1578140960696">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
     <state x="262" y="64" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.23.1280.713@0.23.1280.713" timestamp="1578140960696" />
-    <state x="101" y="23" width="997" height="713" key="SettingsEditor" timestamp="1578148422540">
+    <state x="261" y="63" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1581323065652">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
-    <state x="101" y="23" width="997" height="713" key="SettingsEditor/0.23.1280.713@0.23.1280.713" timestamp="1578148422540" />
-    <state x="317" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1578141410089">
+    <state x="261" y="63" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1280.713@0.23.1280.713" timestamp="1581323065652" />
+    <state width="1218" height="131" key="GridCell.Tab.0.bottom" timestamp="1581328454314">
       <screen x="0" y="23" width="1280" height="713" />
     </state>
+    <state width="1218" height="131" key="GridCell.Tab.0.bottom/0.23.1280.710@0.23.1280.710" timestamp="1581327932709" />
+    <state width="1218" height="131" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1581328454314" />
+    <state width="1218" height="110" key="GridCell.Tab.0.bottom/0.23.1280.715@0.23.1280.715" timestamp="1579501844393" />
+    <state width="1218" height="131" key="GridCell.Tab.0.center" timestamp="1581328454313">
+      <screen x="0" y="23" width="1280" height="713" />
+    </state>
+    <state width="1218" height="131" key="GridCell.Tab.0.center/0.23.1280.710@0.23.1280.710" timestamp="1581327932708" />
+    <state width="1218" height="131" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1581328454313" />
+    <state width="1218" height="110" key="GridCell.Tab.0.center/0.23.1280.715@0.23.1280.715" timestamp="1579501844392" />
+    <state width="1218" height="131" key="GridCell.Tab.0.left" timestamp="1581328454312">
+      <screen x="0" y="23" width="1280" height="713" />
+    </state>
+    <state width="1218" height="131" key="GridCell.Tab.0.left/0.23.1280.710@0.23.1280.710" timestamp="1581327932708" />
+    <state width="1218" height="131" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1581328454312" />
+    <state width="1218" height="110" key="GridCell.Tab.0.left/0.23.1280.715@0.23.1280.715" timestamp="1579501844392" />
+    <state width="1218" height="131" key="GridCell.Tab.0.right" timestamp="1581328454313">
+      <screen x="0" y="23" width="1280" height="713" />
+    </state>
+    <state width="1218" height="131" key="GridCell.Tab.0.right/0.23.1280.710@0.23.1280.710" timestamp="1581327932709" />
+    <state width="1218" height="131" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1581328454313" />
+    <state width="1218" height="110" key="GridCell.Tab.0.right/0.23.1280.715@0.23.1280.715" timestamp="1579501844392" />
+    <state width="1218" height="187" key="GridCell.Tab.1.bottom" timestamp="1581327022814">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.1.bottom/0.23.1280.710@0.23.1280.710" timestamp="1581327022814" />
+    <state width="1218" height="110" key="GridCell.Tab.1.bottom/0.23.1280.715@0.23.1280.715" timestamp="1579501844394" />
+    <state width="1218" height="187" key="GridCell.Tab.1.center" timestamp="1581327022813">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.1.center/0.23.1280.710@0.23.1280.710" timestamp="1581327022813" />
+    <state width="1218" height="110" key="GridCell.Tab.1.center/0.23.1280.715@0.23.1280.715" timestamp="1579501844393" />
+    <state width="1218" height="187" key="GridCell.Tab.1.left" timestamp="1581327022813">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.1.left/0.23.1280.710@0.23.1280.710" timestamp="1581327022813" />
+    <state width="1218" height="110" key="GridCell.Tab.1.left/0.23.1280.715@0.23.1280.715" timestamp="1579501844393" />
+    <state width="1218" height="187" key="GridCell.Tab.1.right" timestamp="1581327022814">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.1.right/0.23.1280.710@0.23.1280.710" timestamp="1581327022814" />
+    <state width="1218" height="110" key="GridCell.Tab.1.right/0.23.1280.715@0.23.1280.715" timestamp="1579501844393" />
+    <state width="1218" height="187" key="GridCell.Tab.2.bottom" timestamp="1581327022815">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.2.bottom/0.23.1280.710@0.23.1280.710" timestamp="1581327022815" />
+    <state width="1218" height="110" key="GridCell.Tab.2.bottom/0.23.1280.715@0.23.1280.715" timestamp="1579501844395" />
+    <state width="1218" height="187" key="GridCell.Tab.2.center" timestamp="1581327022815">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.2.center/0.23.1280.710@0.23.1280.710" timestamp="1581327022815" />
+    <state width="1218" height="110" key="GridCell.Tab.2.center/0.23.1280.715@0.23.1280.715" timestamp="1579501844394" />
+    <state width="1218" height="187" key="GridCell.Tab.2.left" timestamp="1581327022814">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.2.left/0.23.1280.710@0.23.1280.710" timestamp="1581327022814" />
+    <state width="1218" height="110" key="GridCell.Tab.2.left/0.23.1280.715@0.23.1280.715" timestamp="1579501844394" />
+    <state width="1218" height="187" key="GridCell.Tab.2.right" timestamp="1581327022815">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.2.right/0.23.1280.710@0.23.1280.710" timestamp="1581327022815" />
+    <state width="1218" height="110" key="GridCell.Tab.2.right/0.23.1280.715@0.23.1280.715" timestamp="1579501844394" />
+    <state width="1218" height="187" key="GridCell.Tab.3.bottom" timestamp="1581327022816">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.3.bottom/0.23.1280.710@0.23.1280.710" timestamp="1581327022816" />
+    <state width="1218" height="110" key="GridCell.Tab.3.bottom/0.23.1280.715@0.23.1280.715" timestamp="1579501844396" />
+    <state width="1218" height="187" key="GridCell.Tab.3.center" timestamp="1581327022816">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.3.center/0.23.1280.710@0.23.1280.710" timestamp="1581327022816" />
+    <state width="1218" height="110" key="GridCell.Tab.3.center/0.23.1280.715@0.23.1280.715" timestamp="1579501844395" />
+    <state width="1218" height="187" key="GridCell.Tab.3.left" timestamp="1581327022815">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.3.left/0.23.1280.710@0.23.1280.710" timestamp="1581327022815" />
+    <state width="1218" height="110" key="GridCell.Tab.3.left/0.23.1280.715@0.23.1280.715" timestamp="1579501844395" />
+    <state width="1218" height="187" key="GridCell.Tab.3.right" timestamp="1581327022816">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state width="1218" height="187" key="GridCell.Tab.3.right/0.23.1280.710@0.23.1280.710" timestamp="1581327022816" />
+    <state width="1218" height="110" key="GridCell.Tab.3.right/0.23.1280.715@0.23.1280.715" timestamp="1579501844396" />
+    <state x="300" y="85" key="RollbackChangesDialog" timestamp="1581325371715">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state x="300" y="85" key="RollbackChangesDialog/0.23.1280.710@0.23.1280.710" timestamp="1581325371715" />
+    <state x="106" y="23" width="997" height="715" key="SettingsEditor" timestamp="1581323327965">
+      <screen x="0" y="23" width="1280" height="713" />
+    </state>
+    <state x="106" y="23" width="997" height="713" key="SettingsEditor/0.23.1280.713@0.23.1280.713" timestamp="1581323327965" />
+    <state x="101" y="23" width="997" height="715" key="SettingsEditor/0.23.1280.715@0.23.1280.715" timestamp="1579498138046" />
+    <state x="317" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1581327187382">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state x="317" y="212" key="com.intellij.ide.util.TipDialog/0.23.1280.710@0.23.1280.710" timestamp="1581327187382" />
     <state x="317" y="212" key="com.intellij.ide.util.TipDialog/0.23.1280.713@0.23.1280.713" timestamp="1578141410089" />
+    <state x="317" y="213" key="com.intellij.ide.util.TipDialog/0.23.1280.715@0.23.1280.715" timestamp="1579495746027" />
+    <state x="308" y="130" width="837" height="540" key="find.popup" timestamp="1578897212585">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="308" y="130" width="837" height="540" key="find.popup/0.23.1280.716@0.23.1280.716" timestamp="1578897212585" />
     <state x="16" y="96" key="new project wizard" timestamp="1578108319620">
       <screen x="0" y="23" width="1280" height="713" />
     </state>

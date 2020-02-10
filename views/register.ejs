@@ -3,7 +3,60 @@
 <head>
 
     <title>Register</title>
-    <%- include header %>
+<!--    <script src="../model/registration-validate.js"></script>-->
+<!--    <script>-->
+<!--        function regValidation() {-->
+<!--            const username = document.forms[0]['username'].value;-->
+<!--            const email = document.forms[0]['email'].value;-->
+<!--            const password = document.forms[0]['password'].value;-->
+<!--            const password2 = document.forms[0]['password2'].value;-->
+
+<!--            if (validUserName(username)) {-->
+<!--                if (validEmail(email)) {-->
+<!--                    if (validPassword(password)) {-->
+<!--                        if (matchPassword(password, password2)) {-->
+<!--                            return true;-->
+<!--                        }-->
+<!--                    }-->
+<!--                }-->
+<!--            }-->
+<!--            alert("Please contact the developer, something has gone wrong");-->
+<!--            return false;-->
+<!--        }-->
+
+<!--        function validUserName(username) {-->
+<!--            if (!username)-->
+<!--                alert("enter a name!");-->
+<!--            return false;-->
+<!--        }-->
+
+<!--        function validEmail(email) {-->
+<!--            const mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;-->
+<!--            if (email.value.match(mailFormat)) {-->
+<!--                return true;-->
+<!--            } else {-->
+<!--                alert("enter an invalid email address!");-->
+<!--                return false;-->
+<!--            }-->
+<!--        }-->
+
+<!--        function validPassword(password) {-->
+<!--            alert("enter password > 8 digits with: 1) at least 1 number, " +-->
+<!--                "2) at least an uppercase letter, 3) a lower case letter.");-->
+<!--            return false;-->
+<!--        }-->
+
+<!--        function matchPassword(password, password2) {-->
+<!--            if (password === password2) {-->
+<!--                return true;-->
+<!--            } else {-->
+<!--                alert("re-enter the SAME password!");-->
+<!--                return false;-->
+<!--            }-->
+<!--        }-->
+
+<!--    </script>-->
+    <%- include header.ejs %>
 </head>
 <body>
 
@@ -13,11 +66,11 @@
         <!--https://www.w3schools.com/html/html_forms.asp
         Use POST because this is sensitive information-->
 
-        <form action="/users/register" method="post">
-            <input type="text" name="username" value="" placeholder="Full Name">
-            <input type="text" name="email" value="" placeholder="Email">
-            <input type="password" name="password" value="" placeholder="Password">
-            <input type="password" name="password2" value="" placeholder="Re-enter Password">
+        <form action="/users/register" method="post" onsubmit="return regValidation();">
+            <input type="text" name="username" value="" placeholder="Full Name" required>
+            <input type="text" name="email" value="" placeholder="Email" required>
+            <input type="password" name="password" value="" placeholder="Password" required>
+            <input type="password" name="password2" value="" placeholder="Re-enter Password" required>
             <input type="submit" name="submit" value="register now"><br>
         </form>
         <div>  <a href="/login">sign in </a>! </div>
